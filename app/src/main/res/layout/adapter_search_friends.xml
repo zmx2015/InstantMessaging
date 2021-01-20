@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_4"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardCornerRadius="@dimen/dp_4"
+    card_view:cardElevation="@dimen/dp_4">
+
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10"
+        android:background="@color/white"
+        >
+
+        <ImageView
+            android:id="@+id/head"
+            android:layout_width="@dimen/dp_60"
+            android:layout_height="@dimen/dp_60"
+            android:src="@mipmap/head"
+            />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/head"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_15"
+            android:textStyle="bold"
+            android:text="张飞"
+            />
+          <TextView
+              android:id="@+id/add_friends"
+              android:layout_below="@+id/head"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/sp_15"
+              android:layout_marginTop="@dimen/dp_10"
+              android:gravity="center"
+              android:padding="@dimen/dp_10"
+              android:background="@color/there"
+              android:textColor="@color/white"
+              android:text="添加到通讯录"
+              />
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

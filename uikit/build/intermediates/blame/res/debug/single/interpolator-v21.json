@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\InstantMessaging\\uikit\\build\\intermediates\\res\\merged\\debug\\interpolator-v21\\mtrl_fast_out_slow_in.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\87e92348220acb3a4332f2e0840ed974\\res\\interpolator-v21\\mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\InstantMessaging\\uikit\\build\\intermediates\\res\\merged\\debug\\interpolator-v21\\mtrl_fast_out_linear_in.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\87e92348220acb3a4332f2e0840ed974\\res\\interpolator-v21\\mtrl_fast_out_linear_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\InstantMessaging\\uikit\\build\\intermediates\\res\\merged\\debug\\interpolator-v21\\mtrl_linear_out_slow_in.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\87e92348220acb3a4332f2e0840ed974\\res\\interpolator-v21\\mtrl_linear_out_slow_in.xml"
+    }
+]

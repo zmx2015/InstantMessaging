@@ -1,0 +1,386 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.netease.nim.uikit.test" >
+4
+5    <uses-sdk
+5-->D:\AndroidProject\InstantMessaging\uikit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3834907185137801451.xml:5:5-74
+6        android:minSdkVersion="21"
+6-->D:\AndroidProject\InstantMessaging\uikit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3834907185137801451.xml:5:15-41
+7        android:targetSdkVersion="30" />
+7-->D:\AndroidProject\InstantMessaging\uikit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3834907185137801451.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\AndroidProject\InstantMessaging\uikit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3834907185137801451.xml:11:5-15:76
+10        android:name="android.test.InstrumentationTestRunner"
+10-->D:\AndroidProject\InstantMessaging\uikit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3834907185137801451.xml:11:22-75
+11        android:functionalTest="false"
+11-->D:\AndroidProject\InstantMessaging\uikit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3834907185137801451.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\AndroidProject\InstantMessaging\uikit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3834907185137801451.xml:13:22-53
+13        android:label="Tests for com.netease.nim.uikit.test"
+13-->D:\AndroidProject\InstantMessaging\uikit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3834907185137801451.xml:15:22-74
+14        android:targetPackage="com.netease.nim.uikit.test" />
+14-->D:\AndroidProject\InstantMessaging\uikit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3834907185137801451.xml:12:22-72
+15    <!-- for android -->
+16    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+17    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+18    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+19    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+20    <!-- for Samsung -->
+21    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+21-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+21-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+22    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+22-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+22-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+23    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+23-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+23-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+24    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+24-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+24-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+25    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+25-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+25-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+26    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+26-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+26-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+27    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+27-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+27-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+28    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+28-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+28-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+29    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+29-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+29-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+30    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+30-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+30-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+31    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+31-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+31-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+32    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+32-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+32-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+33    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+33-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+33-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+34    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+34-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+34-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+35    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+35-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+35-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+36    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+36-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+36-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\35caf961a8e240e16f90c84c6de72314\ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+37
+38    <application
+38-->D:\AndroidProject\InstantMessaging\uikit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3834907185137801451.xml:7:5-9:19
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ec609e8cee787e2dff3592c66b08a66a\core-1.0.0\AndroidManifest.xml:22:18-86
+40        android:debuggable="true" >
+40-->D:\AndroidProject\InstantMessaging\uikit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3834907185137801451.xml:7:18-43
+41        <uses-library android:name="android.test.runner" />
+41-->D:\AndroidProject\InstantMessaging\uikit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3834907185137801451.xml:8:9-60
+41-->D:\AndroidProject\InstantMessaging\uikit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3834907185137801451.xml:8:23-57
+42
+43        <activity android:name="com.netease.nim.uikit.business.session.activity.WatchMultiRetweetPictureActivity" />
+43-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-117
+43-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:19-114
+44
+45        <meta-data
+45-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-16:43
+46            android:name="com.netease.nim.uikit.support.glide.NIMGlideModule"
+46-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-78
+47            android:value="GlideModule" /> <!-- 会话窗口 -->
+47-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-40
+48        <!--
+49             UI组件中包含了语音选文字功能，该界面是全屏显示，为了视觉上的美观，该界面主题ActionBar使用Overlay模式。
+50             如果开发者不需要该功能或效果，使用普通主题即可。 同时，还需要将message_activity.xml这个layout中的根节点的paddingTop去掉。
+51        -->
+52        <activity
+52-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-28:70
+53            android:name="com.netease.nim.uikit.business.session.activity.P2PMessageActivity"
+53-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-94
+54            android:configChanges="keyboardHidden|orientation"
+54-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-63
+55            android:screenOrientation="portrait"
+55-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-49
+56            android:theme="@style/AppTheme.NoActionBar"
+56-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-56
+57            android:windowSoftInputMode="stateHidden|adjustResize" />
+57-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-67
+58        <activity
+58-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-34:70
+59            android:name="com.netease.nim.uikit.business.session.activity.TeamMessageActivity"
+59-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-95
+60            android:configChanges="keyboardHidden|orientation"
+60-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-63
+61            android:screenOrientation="portrait"
+61-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-49
+62            android:theme="@style/AppTheme.NoActionBar"
+62-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-56
+63            android:windowSoftInputMode="stateHidden|adjustResize" /> <!-- 群聊 -->
+63-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-67
+64        <activity
+64-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-40:70
+65            android:name="com.netease.nim.uikit.business.team.activity.NormalTeamInfoActivity"
+65-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-95
+66            android:configChanges="keyboardHidden|orientation"
+66-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-63
+67            android:screenOrientation="portrait"
+67-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-49
+68            android:theme="@style/AppTheme.NoActionBar"
+68-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-56
+69            android:windowSoftInputMode="stateHidden|adjustResize" />
+69-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-67
+70        <activity
+70-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:9-46:70
+71            android:name="com.netease.nim.uikit.business.team.activity.AdvancedTeamInfoActivity"
+71-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-97
+72            android:configChanges="keyboardHidden|orientation"
+72-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-63
+73            android:screenOrientation="portrait"
+73-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-49
+74            android:theme="@style/AppTheme.NoActionBar"
+74-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-56
+75            android:windowSoftInputMode="stateHidden|adjustResize" />
+75-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-67
+76        <activity
+76-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:9-52:70
+77            android:name="com.netease.nim.uikit.business.team.activity.AdvancedTeamMemberActivity"
+77-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-99
+78            android:configChanges="keyboardHidden|orientation"
+78-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-63
+79            android:screenOrientation="portrait"
+79-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-49
+80            android:theme="@style/AppTheme.NoActionBar"
+80-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:13-56
+81            android:windowSoftInputMode="stateHidden|adjustResize" />
+81-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-67
+82        <activity
+82-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:9-58:70
+83            android:name="com.netease.nim.uikit.business.team.activity.AdvancedTeamAnnounceActivity"
+83-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:13-101
+84            android:configChanges="keyboardHidden|orientation"
+84-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-63
+85            android:screenOrientation="portrait"
+85-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-49
+86            android:theme="@style/AppTheme.NoActionBar"
+86-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-56
+87            android:windowSoftInputMode="stateHidden|adjustResize" />
+87-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:13-67
+88        <activity
+88-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:9-64:70
+89            android:name="com.netease.nim.uikit.business.team.activity.AdvancedTeamMemberInfoActivity"
+89-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:13-103
+90            android:configChanges="keyboardHidden|orientation"
+90-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:13-63
+91            android:screenOrientation="portrait"
+91-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:13-49
+92            android:theme="@style/AppTheme.NoActionBar"
+92-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-56
+93            android:windowSoftInputMode="stateHidden|adjustResize" />
+93-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-67
+94        <activity
+94-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:9-70:70
+95            android:name="com.netease.nim.uikit.business.team.activity.AdvancedTeamNicknameActivity"
+95-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:13-101
+96            android:configChanges="keyboardHidden|orientation"
+96-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-63
+97            android:screenOrientation="portrait"
+97-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-49
+98            android:theme="@style/AppTheme.NoActionBar"
+98-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:13-56
+99            android:windowSoftInputMode="stateHidden|adjustResize" />
+99-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:13-67
+100        <activity
+100-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:9-76:70
+101            android:name="com.netease.nim.uikit.business.team.activity.AdvancedTeamCreateAnnounceActivity"
+101-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:13-107
+102            android:configChanges="keyboardHidden|orientation"
+102-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-63
+103            android:screenOrientation="portrait"
+103-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:13-49
+104            android:theme="@style/AppTheme.NoActionBar"
+104-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:13-56
+105            android:windowSoftInputMode="stateHidden|adjustResize" />
+105-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:13-67
+106        <activity
+106-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:9-82:70
+107            android:name="com.netease.nim.uikit.business.team.activity.TeamPropertySettingActivity"
+107-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:13-100
+108            android:configChanges="keyboardHidden|orientation"
+108-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:13-63
+109            android:screenOrientation="portrait"
+109-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:13-49
+110            android:theme="@style/AppTheme.NoActionBar"
+110-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:13-56
+111            android:windowSoftInputMode="stateHidden|adjustResize" /> <!-- 联系人选择器 -->
+111-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:13-67
+112        <activity
+112-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:83:9-89:67
+113            android:name="com.netease.nim.uikit.business.contact.selector.activity.ContactSelectActivity"
+113-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:13-106
+114            android:configChanges="keyboardHidden|orientation"
+114-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:85:13-63
+115            android:label="@string/contact_selector"
+115-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:13-53
+116            android:screenOrientation="portrait"
+116-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:87:13-49
+117            android:theme="@style/AppTheme.NoActionBar"
+117-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:88:13-56
+118            android:windowSoftInputMode="stateHidden|adjustPan" /> <!-- @ 选择器 -->
+118-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:89:13-64
+119        <activity
+119-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:90:9-93:59
+120            android:name="com.netease.nim.uikit.business.ait.selector.AitContactSelectorActivity"
+120-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:91:13-98
+121            android:screenOrientation="portrait"
+121-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:92:13-49
+122            android:theme="@style/AppTheme.NoActionBar" /> <!-- 视频 -->
+122-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:93:13-56
+123        <activity
+123-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:94:9-99:70
+124            android:name="com.netease.nim.uikit.business.session.activity.CaptureVideoActivity"
+124-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:95:13-96
+125            android:configChanges="keyboardHidden|orientation"
+125-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:96:13-63
+126            android:screenOrientation="portrait"
+126-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:97:13-49
+127            android:theme="@style/AppTheme.NoActionBar"
+127-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:98:13-56
+128            android:windowSoftInputMode="stateHidden|adjustResize" />
+128-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:99:13-67
+129        <activity
+129-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:100:9-104:48
+130            android:name="com.netease.nim.uikit.business.session.activity.WatchVideoActivity"
+130-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:101:13-94
+131            android:configChanges="keyboardHidden|orientation|screenSize"
+131-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:102:13-74
+132            android:label="@string/video_play"
+132-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:103:13-47
+133            android:theme="@style/DarkTheme" /> <!-- 查看大图 -->
+133-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:104:13-45
+134        <activity
+134-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:107:9-110:48
+135            android:name="com.netease.nim.uikit.business.session.activity.WatchMessagePictureActivity"
+135-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:108:13-103
+136            android:configChanges="keyboardHidden"
+136-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:109:13-51
+137            android:theme="@style/DarkTheme" />
+137-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:110:13-45
+138        <activity
+138-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:111:9-114:48
+139            android:name="com.netease.nim.uikit.business.session.activity.WatchPicAndVideoMenuActivity"
+139-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:112:13-104
+140            android:configChanges="keyboardHidden"
+140-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:113:13-51
+141            android:theme="@style/DarkTheme" /> <!-- 照片选择 -->
+141-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:114:13-45
+142        <activity
+142-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:116:9-118:54
+143            android:name="com.netease.nim.uikit.business.session.activity.MsgSelectActivity"
+143-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:117:13-93
+144            android:configChanges="keyboardHidden" />
+144-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:118:13-51
+145
+146        <provider
+146-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:120:9-128:20
+147            android:name="com.netease.nim.uikit.common.media.model.GenericFileProvider"
+147-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:121:13-88
+148            android:authorities="com.netease.nim.uikit.test.generic.file.provider"
+148-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:122:13-73
+149            android:exported="false"
+149-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:123:13-37
+150            android:grantUriPermissions="true" >
+150-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:124:13-47
+151            <meta-data
+151-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:125:13-127:58
+152                android:name="android.support.FILE_PROVIDER_PATHS"
+152-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:126:17-67
+153                android:resource="@xml/provider_paths" />
+153-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:127:17-55
+154        </provider>
+155
+156        <activity
+156-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:130:9-134:53
+157            android:name="com.netease.nim.uikit.common.media.imagepicker.ui.ImageGridActivity"
+157-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:131:13-95
+158            android:configChanges="orientation|screenSize"
+158-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:132:13-59
+159            android:screenOrientation="portrait"
+159-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:133:13-49
+160            android:theme="@style/LightBaseTheme" />
+160-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:134:13-50
+161        <activity
+161-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:135:9-140:70
+162            android:name="com.netease.nim.uikit.common.media.imagepicker.ui.ImageCropActivity"
+162-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:136:13-95
+163            android:configChanges="orientation|screenSize"
+163-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:137:13-59
+164            android:hardwareAccelerated="false"
+164-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:138:13-48
+165            android:screenOrientation="portrait"
+165-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:139:13-49
+166            android:theme="@style/ImagePickerTheme.BlackStatusBar" />
+166-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:140:13-67
+167        <activity
+167-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:141:9-144:70
+168            android:name="com.netease.nim.uikit.common.media.imagepicker.ui.ImagePreviewActivity"
+168-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:142:13-98
+169            android:configChanges="orientation|screenSize"
+169-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:143:13-59
+170            android:theme="@style/ImagePickerTheme.BlackStatusBar" />
+170-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:144:13-67
+171        <activity
+171-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:145:9-148:70
+172            android:name="com.netease.nim.uikit.common.media.imagepicker.ui.ImagePreviewRetakeActivity"
+172-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:146:13-104
+173            android:configChanges="orientation|screenSize"
+173-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:147:13-59
+174            android:theme="@style/ImagePickerTheme.BlackStatusBar" />
+174-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:148:13-67
+175        <activity
+175-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:149:9-153:70
+176            android:name="com.netease.nim.uikit.common.media.imagepicker.ui.ImageTakeActivity"
+176-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:150:13-95
+177            android:configChanges="orientation|screenSize"
+177-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:151:13-59
+178            android:screenOrientation="portrait"
+178-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:152:13-49
+179            android:theme="@style/ImagePickerTheme.BlackStatusBar" />
+179-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:153:13-67
+180        <activity
+180-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:154:9-158:49
+181            android:name="com.netease.nim.uikit.common.media.imagepicker.video.GLVideoActivity"
+181-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:155:13-96
+182            android:configChanges="orientation|screenSize"
+182-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:156:13-59
+183            android:screenOrientation="portrait"
+183-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:157:13-49
+184            android:theme="@style/VideoTheme" />
+184-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:158:13-46
+185        <activity
+185-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:159:9-163:49
+186            android:name="com.netease.nim.uikit.common.media.imagepicker.video.GLVideoConfirmActivity"
+186-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:160:13-103
+187            android:configChanges="orientation|screenSize"
+187-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:161:13-59
+188            android:screenOrientation="portrait"
+188-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:162:13-49
+189            android:theme="@style/VideoTheme" />
+189-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:163:13-46
+190        <activity
+190-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:164:9-167:72
+191            android:name="com.netease.nim.uikit.common.media.imagepicker.camera.CaptureActivity"
+191-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:165:13-97
+192            android:screenOrientation="portrait"
+192-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:166:13-49
+193            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+193-->[__tested_artifact__::uikit] D:\AndroidProject\InstantMessaging\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:167:13-69
+194    </application>
+195
+196</manifest>

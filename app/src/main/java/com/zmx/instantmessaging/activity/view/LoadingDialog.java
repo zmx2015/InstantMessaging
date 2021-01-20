@@ -1,0 +1,44 @@
+package com.zmx.instantmessaging.activity.view;
+
+import android.app.ProgressDialog;
+import android.content.Context;
+import android.os.Bundle;
+import android.widget.TextView;
+
+import com.zmx.instantmessaging.R;
+
+/**
+ * 程序猿：胖胖祥
+ * 时 间：2021/1/15  13:18
+ * 功 能：
+ */
+
+public class LoadingDialog extends ProgressDialog {
+
+    private String mMessage;
+
+    private TextView mTitleTv;
+
+
+    public LoadingDialog(Context context, String message, boolean canceledOnTouchOutside) {
+        super(context, R.style.Theme_Light_LoadingDialog);
+        this.mMessage = message;
+        // 如果触摸屏幕其它区域,可以选择让这个progressDialog消失或者无变化
+        setCanceledOnTouchOutside(canceledOnTouchOutside);
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.dialog_loading);
+        mTitleTv = (TextView) findViewById(R.id.tv_loading_dialog);
+        mTitleTv.setText(mMessage);
+        setCancelable(false);//不可取消
+    }
+
+    public void setTitle(String message) {
+        this.mMessage = message;
+        mTitleTv.setText(mMessage);
+    }
+
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:title=""
+            app:titleTextColor="@android:color/black">
+
+        </androidx.appcompat.widget.Toolbar>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_80">
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/head"
+            android:layout_width="@dimen/dp_60"
+            android:layout_height="@dimen/dp_60"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/head" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/head">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="六不能"
+                android:textSize="@dimen/sp_16"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="@dimen/dp_5"
+                android:text="账号：zmx2021"
+                android:textColor="@color/darkgrey" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/user_message"
+        style="@style/TxtTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_45"
+        android:background="@drawable/setting_item_selector"
+        android:drawableLeft="@mipmap/xgzl"
+        android:drawablePadding="@dimen/dp_10"
+        android:drawableRight="@mipmap/right"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingRight="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_50"
+        android:text="修改资料"
+        android:textSize="@dimen/sp_15" />
+
+
+    <TextView
+        android:id="@+id/set_up_view"
+        style="@style/TxtTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_45"
+        android:background="@drawable/setting_item_selector"
+        android:drawableLeft="@mipmap/set"
+        android:drawablePadding="@dimen/dp_10"
+        android:drawableRight="@mipmap/right"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingRight="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="设置"
+        android:textSize="@dimen/sp_15" />
+
+
+    <Button
+        android:id="@+id/out_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_margin="@dimen/dp_50"
+        android:background="@drawable/buttonstyle"
+        android:textColor="@color/white"
+        android:text="退出登录"
+        />
+
+</LinearLayout>
